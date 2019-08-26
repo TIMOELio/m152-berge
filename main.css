@@ -29,7 +29,7 @@ h1 {
 }
 /* Titel 2 */
 h2 {
-  font-family: arial black;
+  font-family: arial black, sans-serif;
   color: white;
 
 }
