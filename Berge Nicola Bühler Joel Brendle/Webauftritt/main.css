@@ -1,0 +1,117 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Seiten Body haupt werte */
+body {
+  min-height: 650px;
+  padding: 5px;
+  margin: 5px;
+  left: 200px;
+  right: 200px;
+  height: auto;
+  width: auto;
+  background-color: black;
+}
+
+body.mingalerie{
+  min-height: 1080px;
+}
+
+p {
+  font-family: arial serif;
+}
+/* Titel 1 */
+h1 {
+  font-family: arial black;
+  color: white;
+
+}
+/* Titel 2 */
+h2 {
+  font-family: arial black;
+  color: white;
+
+}
+/* Navigation der Webseite */
+nav{
+  margin-top: 10px;
+  top: 0px;
+  text-align: center;
+  font-family: arial black;
+  height: 100px;
+  left: 0px;
+  right: 0px;
+}
+
+/* Einstellungen der Link abstände */
+li {
+
+  text-align: center;
+  list-style: none;
+  font-size: 30px;
+  font-style: normal;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* Globale Link layouts */
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: red;
+}
+
+/* Footer mit denn erstellern der Webseite */
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 50px;
+  background-color: grey;
+}
+/* text eigenschaften font style */
+p.footernames{
+  text-align: center;
+  color: black;
+}
+/* Allgemeine Postion der Texte auf der webseite */
+div.textseite {
+  text-align: center
+}
+/* Das video gerade versteckt = display none */
+div.videobox {
+  display: none;
+  pointer-events: none;
+  position: fixed;
+  background-color: red;
+  left: 0px;
+  right: 0px;
+  bottom: 50px;
+  height: 300px;
+}
+
+mains{
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+
+/* layout der Bilder Galerie */
+
+div.bildbox{
+  margin: 5px;
+  height: 300px;
+  width: 300px;
+  float: left;
+  background-color: white;
+}
+
+div.bildseite {
+  text-align: center;
+  width: 930px;
+  display: inline-block;
+}
