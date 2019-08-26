@@ -115,3 +115,7 @@ div.bildseite {
   width: 930px;
   display: inline-block;
 }
+
+p {
+  font-family: verdana;
+}
