@@ -117,7 +117,8 @@ div.bildseite {
 }
 
 figure {
-  
+  display:inline-block;
+
 }
 
 figcaption {
