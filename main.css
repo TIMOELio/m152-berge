@@ -42,6 +42,13 @@ nav{
   height: 100px;
   left: 0px;
   right: 0px;
+      /* Berge */
+    border-bottom-left-radius: 103px;
+    border-bottom-right-radius: 103px;
+    border-style: solid;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-bottom-color:white;
 }
 
 /* Einstellungen der Link abstände */
@@ -64,6 +71,16 @@ a:hover {
   color: red;
 }
 
+nav:hover {
+  border-bottom-color: grey;
+}
+
+div.bildbox:hover{
+  border-color: yellow;
+  border:opacity 0.6; /*test*/
+
+}
+
 /* Footer mit denn erstellern der Webseite */
 footer {
   position: fixed;
@@ -72,6 +89,14 @@ footer {
   right: 0px;
   height: 50px;
   background-color: grey;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top: 3px;
+  border-style: solid;
+  border-color: white;
+  border-bottom: 0px;
+  border-right: 0px;
+  border-left: 0px;
 }
 /* text eigenschaften font style */
 p.footernames{
@@ -107,18 +132,23 @@ div.bildbox{
   height: 300px;
   width: 300px;
   float: left;
-  background-color: white;
+  background-color: none;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 3px;
 }
 
 div.bildseite {
   text-align: center;
-  width: 930px;
+  width: 1000px;
   display: inline-block;
 }
 
 figure {
   display:inline-block;
   padding: 0px;
+  padding-bottom: 20px;
   margin: 0px;
   margin-block-start: 0px;
   margin-block-end: 0px;
@@ -129,4 +159,8 @@ figure {
 figcaption {
   color: white;
   font-family: verdana;
+}
+
+img {
+  border-radius: 3px;
 }
