@@ -25,6 +25,7 @@ p {
 h1 {
   font-family: arial black, sans-serif;
   color: white;
+  font-size: 2.5vw;
 
 }
 /* Titel 2 */
@@ -66,6 +67,7 @@ li {
 a {
   text-decoration: none;
   color: white;
+  font-size: 3vw;
 }
 a:hover {
   color: red;
