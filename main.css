@@ -4,6 +4,7 @@ html {
 
 .active{
   opacity: 0.6;
+  color: red;
 }
 
 /* Seiten Body haupt werte */
