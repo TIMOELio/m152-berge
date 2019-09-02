@@ -2,6 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.active{
+  opacity: 0.6;
+  color: red;
+}
+
 /* Seiten Body haupt werte */
 body {
   min-height: 650px;
@@ -25,13 +30,14 @@ p {
 h1 {
   font-family: arial black, sans-serif;
   color: white;
+  font-size: 2.5vw;
 
 }
 /* Titel 2 */
 h2 {
   font-family: arial black, sans-serif;
   color: white;
-
+  font-size: 2vw;
 }
 /* Navigation der Webseite */
 nav{
@@ -42,6 +48,13 @@ nav{
   height: 100px;
   left: 0px;
   right: 0px;
+      /* Berge */
+    border-bottom-left-radius: 103px;
+    border-bottom-right-radius: 103px;
+    border-style: solid;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    border-bottom-color:white;
 }
 
 /* Einstellungen der Link abstände */
@@ -59,19 +72,37 @@ li {
 a {
   text-decoration: none;
   color: white;
+  font-size: 3vw;
 }
 a:hover {
   color: red;
 }
 
+nav:hover {
+  border-bottom-color: grey;
+}
+
+div.bildbox:hover{
+  border-color: yellow;
+  border:opacity 0.6; /*test*/
+
+}
+
 /* Footer mit denn erstellern der Webseite */
 footer {
-  position: fixed;
-  bottom: 0px;
+  position: absolute;
   left: 0px;
   right: 0px;
   height: 50px;
-  background-color: grey;
+  background-color: white;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top: 3px;
+  border-style: solid;
+  border-color: grey;
+  border-bottom: 0px;
+  border-right: 0px;
+  border-left: 0px;
 }
 /* text eigenschaften font style */
 p.footernames{
@@ -84,13 +115,13 @@ div.textseite {
 }
 /* Das video gerade versteckt = display none */
 div.videobox {
-  display: none;
+  display: inline;
   pointer-events: none;
-  position: fixed;
-  background-color: red;
+
+  
   left: 0px;
   right: 0px;
-  bottom: 50px;
+
   height: 300px;
 }
 
@@ -107,21 +138,35 @@ div.bildbox{
   height: 300px;
   width: 300px;
   float: left;
-  background-color: white;
+  background-color: none;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 3px;
 }
 
 div.bildseite {
   text-align: center;
-  width: 930px;
+  width: 1000px;
   display: inline-block;
 }
 
 figure {
   display:inline-block;
   padding: 0px;
+  padding-bottom: 20px;
   margin: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
 }
 
 figcaption {
   color: white;
+  font-family: verdana;
+}
+
+img {
+  border-radius: 3px;
 }
