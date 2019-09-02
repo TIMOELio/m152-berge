@@ -112,18 +112,7 @@ p.footernames{
 }
 /* Allgemeine Postion der Texte auf der webseite */
 div.textseite {
-  text-align: center
-}
-/* Das video gerade versteckt = display none */
-div.videobox {
-  display: inline;
-  pointer-events: none;
-
-
-  left: 0px;
-  right: 0px;
-
-  height: 300px;
+  text-align: center;
 }
 
 mains{
@@ -167,8 +156,7 @@ figcaption {
   color: white;
   font-family: verdana;
 }
-video{
-  controls autoplay;
+video {
   width: 100%;
   height: 100%;
 }
