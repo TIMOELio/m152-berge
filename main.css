@@ -10,8 +10,8 @@ html {
 /* Seiten Body haupt werte */
 body {
   min-height: 650px;
-  padding: 5px;
-  margin: 5px;
+  padding: 0;
+  margin: 0;
   left: 200px;
   right: 200px;
   height: auto;
@@ -118,7 +118,7 @@ div.videobox {
   display: inline;
   pointer-events: none;
 
-  
+
   left: 0px;
   right: 0px;
 
