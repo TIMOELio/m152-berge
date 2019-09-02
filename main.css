@@ -90,17 +90,16 @@ div.bildbox:hover{
 
 /* Footer mit denn erstellern der Webseite */
 footer {
-  position: fixed;
-  bottom: 0px;
+  position: absolute;
   left: 0px;
   right: 0px;
   height: 50px;
-  background-color: grey;
+  background-color: white;
   border-top-right-radius: 50px;
   border-top-left-radius: 50px;
   border-top: 3px;
   border-style: solid;
-  border-color: white;
+  border-color: grey;
   border-bottom: 0px;
   border-right: 0px;
   border-left: 0px;
@@ -116,13 +115,13 @@ div.textseite {
 }
 /* Das video gerade versteckt = display none */
 div.videobox {
-  display: none;
+  display: inline;
   pointer-events: none;
-  position: fixed;
-  background-color: red;
+
+  
   left: 0px;
   right: 0px;
-  bottom: 50px;
+
   height: 300px;
 }
 
