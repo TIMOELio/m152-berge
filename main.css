@@ -182,7 +182,7 @@ img {
 
 .container {
   position: absolute;
-  margin-top: 20%;
+  margin-top: 0%;
   width: 100%;
   top: 0%;
   left: 0;
@@ -192,7 +192,8 @@ img {
   overflow: hidden;
   perspective: 400px;
   opacity: 0.1;
-  display: inline-block
+  display: inline-block;
+  pointer-events: none;
 }
 .container::after {
   content: '';
