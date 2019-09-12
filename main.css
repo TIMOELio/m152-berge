@@ -92,19 +92,12 @@ div.bildbox:hover{
 
 /* Footer mit denn erstellern der Webseite */
 footer {
-  position: absolute;
+  position: fixed;
   left: 0px;
   right: 0px;
+  bottom: 0;
   height: 50px;
   background-color: white;
-  border-top-right-radius: 50px;
-  border-top-left-radius: 50px;
-  border-top: 3px;
-  border-style: solid;
-  border-color: grey;
-  border-bottom: 0px;
-  border-right: 0px;
-  border-left: 0px;
 }
 /* text eigenschaften font style */
 p.footernames{
@@ -167,8 +160,21 @@ img {
 }
 
 .bildlinkmainholder{
-  margin: auto;
-  user-select: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.bildcenter{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
 }
 
 .bildtext{
@@ -222,7 +228,7 @@ img {
   height: 102%;
   position: absolute;
   left: -1%;
-  botton: -1%;
+  bottom: -1%;
   background: #cccfd1;
   animation: opacity 6s linear infinite;
   animation-delay: inherit;
