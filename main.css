@@ -4,12 +4,13 @@
 
 .active{
   opacity: 0.6;
-  color: red;
+  color: #001dff;
 }
 
 /* Seiten Body haupt werte */
 body {
-  position: absolute;
+  background-image: url("bilder/Gonzen1.JPG");
+  
   min-height: 650px;
   padding: 0;
   margin: 0;
@@ -17,7 +18,6 @@ body {
   right: 0px;
   height: auto;
   width: auto;
-  background-color: black;
 }
 
 body.mingalerie{
@@ -76,11 +76,11 @@ a {
   font-size: 3vw;
 }
 a:hover {
-  color: red;
+  color: #0088ff;
 }
 
 nav:hover {
-  border-bottom-color: red;
+  border-bottom-color: #001dff;
 
 }
 
