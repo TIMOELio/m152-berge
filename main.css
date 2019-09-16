@@ -10,7 +10,7 @@
 /* Seiten Body haupt werte */
 body {
   background-image: url("bilder/Gonzen1.JPG");
-  
+
   min-height: 650px;
   padding: 0;
   margin: 0;
@@ -157,6 +157,7 @@ video {
 
 img {
   border-radius: 3px;
+  opacity: 1;
 }
 
 .bildlinkmainholder{
