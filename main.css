@@ -22,6 +22,7 @@ body {
 
 body.mingalerie{
   min-height: 1080px;
+
 }
 
 p {
@@ -55,7 +56,9 @@ nav{
     border-style: solid;
     margin-left: 25vw;
     margin-right: 25vw;
-    border-bottom-color:white;
+    border-color: #faebd700;
+    border-bottom-color: #ffffff;
+
 }
 
 /* Einstellungen der Link abstände */
@@ -133,6 +136,9 @@ div.bildseite {
   text-align: center;
   width: 1000px;
   display: inline-block;
+  background-color:rgba(192,192,192,0.6);
+  border-radius: 5px;
+
 }
 
 figure {
