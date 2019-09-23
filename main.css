@@ -9,8 +9,8 @@
 
 /* Seiten Body haupt werte */
 body {
-  background-image: url("bilder/Gonzen1.JPG");
 
+  background-color: black;
   min-height: 650px;
   padding: 0;
   margin: 0;
@@ -22,7 +22,7 @@ body {
 
 body.mingalerie{
   min-height: 1080px;
-
+  background-image: url("bilder/gross/Gonzen.jpg");
 }
 
 p {
