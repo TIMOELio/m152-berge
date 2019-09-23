@@ -21,8 +21,9 @@ body {
 }
 
 body.mingalerie{
+  background-color: none;
   min-height: 1080px;
-  background-image: url("bilder/gross/Gonzen.jpg");
+  background-image: url("bilder/gross/gonzen.jpg");
 }
 
 p {
