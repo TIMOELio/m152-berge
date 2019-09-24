@@ -20,10 +20,11 @@ body {
   width: auto;
 }
 
-body.mingalerie{
+.mingalerie{
   background-color: none;
   min-height: 1080px;
   background-image: url("bilder/gross/gonzen.jpg");
+  background-repeat:no-repeat;
 }
 
 p {
@@ -167,6 +168,11 @@ img {
   opacity: 1;
 }
 
+.bildgrossholder{
+  height: 40vw;
+  width: 50vw;
+}
+
 .bildlinkmainholder{
   position: absolute;
   left: 0;
@@ -179,15 +185,27 @@ img {
 
 .bildcenter{
   position: absolute;
-  top: 50%;
   left: 50%;
+  top: 2%;
   transform: translateX(-50%);
-  transform: translateY(-50%);
 }
 
 .bildtext{
     color: white;
     font-size: 1vw;
+}
+
+.bildnachlinks{
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform:translateY(-50%);
+}
+.bildnachrechts{
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform:translateY(-50%);
 }
 
 /*Berge test animation*/
