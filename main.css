@@ -16,15 +16,15 @@ body {
   margin: 0;
   left: 0px;
   right: 0px;
-  height: auto;
-  width: auto;
+  height: 100vw;
+  width: 100%;
 }
 
 .mingalerie{
   background-color: none;
   min-height: 1080px;
   background-image: url("bilder/gross/gonzen.jpg");
-  background-repeat:no-repeat;
+  background-size: cover;
 }
 
 p {
@@ -45,6 +45,7 @@ h2 {
 }
 /* Navigation der Webseite */
 nav{
+  position: absolute;
   margin-top: 10px;
   top: 0px;
   text-align: center;
@@ -111,7 +112,11 @@ p.footernames{
 }
 /* Allgemeine Postion der Texte auf der webseite */
 div.textseite {
+  position: absolute;
   text-align: center;
+  top: 20%;
+  left: 0;
+  right: 0;
 }
 
 mains{
@@ -159,8 +164,12 @@ figcaption {
   font-family: verdana;
 }
 video {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
   width: 100%;
-  height: 100%;
+
 }
 
 img {
@@ -198,13 +207,13 @@ img {
 .bildnachlinks{
   position: fixed;
   top: 50%;
-  left: 0;
+  left: 3%;
   transform:translateY(-50%);
 }
 .bildnachrechts{
   position: fixed;
   top: 50%;
-  right: 0;
+  right: 3%;
   transform:translateY(-50%);
 }
 
