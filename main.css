@@ -39,6 +39,7 @@ h1 {
   font-family: arial black, sans-serif;
   color: white;
   font-size: 2.5vw;
+  pointer-events: none;
 
 }
 /* Titel 2 */
@@ -46,6 +47,7 @@ h2 {
   font-family: arial black, sans-serif;
   color: white;
   font-size: 2vw;
+  pointer-events: none;
 }
 /* Navigation der Webseite */
 nav{
@@ -116,6 +118,7 @@ p.footernames{
 }
 /* Allgemeine Postion der Texte auf der webseite */
 div.textseite {
+  pointer-events: none;
   position: absolute;
   text-align: center;
   top: 20%;
@@ -161,6 +164,7 @@ figure {
   margin-block-end: 0px;
   margin-inline-end: 0px;
   margin-inline-start: 0px;
+  pointer-events: all;
 }
 
 figcaption {
@@ -173,7 +177,7 @@ video {
   right: 0;
   top: 50%;
   width: 100%;
-
+  pointer-events: none;
 }
 
 img {
@@ -221,182 +225,8 @@ img {
   transform:translateY(-50%);
 }
 
-/*Berge test animation*/
 
 
-
-.container {
-  position: absolute;
-  margin-top: 0%;
-  width: 100%;
-  top: 0%;
-  left: 0;
-  right: 0;
-  height: 0;
-  padding-bottom: 50%;
-  overflow: hidden;
-  perspective: 400px;
-  opacity: 0.1;
-  display: inline-block;
-  pointer-events: none;
-}
-.container::after {
-  content: '';
-  height: 10%;
-  left: 0;
-  right: 0;
-  position: absolute;
-  bottom: 40%;
-  background: black;
-  opacity: 0.9;
-}
-
-.mountain {
-  background-color: #433C43;
-  width: 8%;
-  height: 16%;
-  position: absolute;
-  bottom: 42%;
-}
-.mountain:nth-of-type(even) {
-  right: 0;
-}
-.mountain::before {
-  content: '';
-  width: 102%;
-  height: 102%;
-  position: absolute;
-  left: -1%;
-  bottom: -1%;
-  background: #cccfd1;
-  animation: opacity 6s linear infinite;
-  animation-delay: inherit;
-}
-
-.mountain:nth-of-type(1) {
-  animation: mountain2 6s -0.3529411765s linear infinite;
-}
-
-.mountain:nth-of-type(2) {
-  animation: mountain3 6s -0.7058823529s linear infinite;
-}
-
-.mountain:nth-of-type(3) {
-  animation: mountain4 6s -1.0588235294s linear infinite;
-}
-
-.mountain:nth-of-type(4) {
-  animation: mountain5 6s -1.4117647059s linear infinite;
-}
-
-.mountain:nth-of-type(5) {
-  animation: mountain6 6s -1.7647058824s linear infinite;
-}
-
-.mountain:nth-of-type(6) {
-  animation: mountain1 6s -2.1176470588s linear infinite;
-}
-
-.mountain:nth-of-type(7) {
-  animation: mountain2 6s -2.4705882353s linear infinite;
-}
-
-.mountain:nth-of-type(8) {
-  animation: mountain3 6s -2.8235294118s linear infinite;
-}
-
-.mountain:nth-of-type(9) {
-  animation: mountain4 6s -3.1764705882s linear infinite;
-}
-
-.mountain:nth-of-type(10) {
-  animation: mountain5 6s -3.5294117647s linear infinite;
-}
-
-.mountain:nth-of-type(11) {
-  animation: mountain6 6s -3.8823529412s linear infinite;
-}
-
-.mountain:nth-of-type(12) {
-  animation: mountain1 6s -4.2352941176s linear infinite;
-}
-
-.mountain:nth-of-type(13) {
-  animation: mountain2 6s -4.5882352941s linear infinite;
-}
-
-.mountain:nth-of-type(14) {
-  animation: mountain3 6s -4.9411764706s linear infinite;
-}
-
-.mountain:nth-of-type(15) {
-  animation: mountain4 6s -5.2941176471s linear infinite;
-}
-
-.mountain:nth-of-type(16) {
-  animation: mountain5 6s -5.6470588235s linear infinite;
-}
-
-.mountain:nth-of-type(17) {
-  animation: mountain6 6s -6s linear infinite;
-}
-
-.mountain:nth-of-type(18) {
-  animation: mountain1 6s -6.3529411765s linear infinite;
-}
-
-.mountain:nth-of-type(19) {
-  animation: mountain2 6s -6.7058823529s linear infinite;
-}
-
-@keyframes mountain1 {
-  0% {
-    transform: rotate(45deg) translate3d(-130%, 130%, -300px) scale(0.5);
-  }
-  100% {
-    transform: rotate(45deg) translate3d(100%, -100%, 0) scale(1);
-  }
-}
-@keyframes mountain2 {
-  0% {
-    transform: rotate(45deg) translate3d(120%, -120%, -300px) scale(0.5);
-  }
-  100% {
-    transform: rotate(45deg) translate3d(-100%, 100%, 0) scale(1);
-  }
-}
-@keyframes mountain3 {
-  0% {
-    transform: rotate(45deg) translate3d(-110%, 110%, -300px) scale(0.5);
-  }
-  100% {
-    transform: rotate(45deg) translate3d(100%, -100%, 0) scale(1);
-  }
-}
-@keyframes mountain4 {
-  0% {
-    transform: rotate(45deg) translate3d(110%, -110%, -300px) scale(0.5);
-  }
-  100% {
-    transform: rotate(45deg) translate3d(-100%, 100%, 0) scale(1);
-  }
-}
-@keyframes mountain5 {
-  0% {
-    transform: rotate(45deg) translate3d(-150%, 150%, -300px) scale(0.5);
-  }
-  100% {
-    transform: rotate(45deg) translate3d(100%, -100%, 0) scale(1);
-  }
-}
-@keyframes mountain6 {
-  0% {
-    transform: rotate(45deg) translate3d(150%, -150%, -300px) scale(0.5);
-  }
-  100% {
-    transform: rotate(45deg) translate3d(-100%, 100%, 0) scale(1);
-  }
-}
 @keyframes opacity {
   85%, 100% {
     opacity: 0;
