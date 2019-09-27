@@ -11,7 +11,7 @@
 body {
 
   background-color: black;
-  min-height: 650px;
+  min-height: 100vh;
   padding: 0;
   margin: 0;
   left: 0px;
@@ -19,10 +19,17 @@ body {
   height: 100vw;
   width: 100%;
 }
+
+sectionindex{
+  height: 100%;
+  width: 100%;
+}
+
 section{
   height: 130%;
   width: 100%;
 }
+
 
 .mingalerie{
   background-color: none;
