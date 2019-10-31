@@ -9,7 +9,7 @@
 
 /* Seiten Body haupt werte */
 body {
-
+  box-shadow: inset 0px 120px 25px -92px #0001DD;
   background-color: black;
   min-height: 100vh;
   padding: 0;
@@ -34,8 +34,8 @@ section{
 .mingalerie{
   background-color: none;
   min-height: 1080px;
-  background-image: url("bilder/gross/gonzen.jpg");
-  background-size: cover;
+  /*background-image: url("bilder/klein/BergLogoweiss.jpg");*/
+  background-repeat: repeat;
 }
 
 p {
@@ -104,7 +104,7 @@ nav:hover {
 }
 
 div.bildbox:hover{
-  border-color: yellow;
+  border-color: black;
   border:opacity 0.6; /*test*/
 
 }
@@ -159,7 +159,7 @@ div.bildseite {
   display: inline-block;
   background-color:rgba(192,192,192,0.6);
   border-radius: 5px;
-
+  box-shadow: 0px 0px 15px 0px #00026D;
 }
 
 figure {
